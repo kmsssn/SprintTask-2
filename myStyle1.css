@@ -161,7 +161,7 @@ body{
     margin-bottom: 5px;
 }
 .rightPanel{
-    width: 15%;
+    width: 20%;
     font-family: OpenSans;
 }
 .right{
@@ -172,4 +172,40 @@ body{
     padding-left: 15px;
     height: fit-content;
     color:rgb(26, 28, 39);
+}
+.mb{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans;
+    margin-top: 10px;
+    border-radius: 3%;
+}
+.miniFriend{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.miniInfo{
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans;
+    margin-top: -2%;
+}
+.miniAva img{
+    width: 50px;
+    border-radius: 100%;
+}
+.miniInfo a{
+    color: rgb(53, 67, 125);
+    text-decoration: none;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.miniInfo p{
+    color: rgb(94, 94, 94);
+    margin-top: 4px;
+    margin-bottom: 5px;
+    font-size: 11px;
 }
