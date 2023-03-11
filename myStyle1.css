@@ -51,12 +51,13 @@ body{
 }
 .main{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .choice{
     width: 8%;
+    margin-right: 1%;
 }
 .leftPanel{
     display: flex;
@@ -163,6 +164,7 @@ body{
 .rightPanel{
     width: 20%;
     font-family: OpenSans;
+    margin-left: 1%;
 }
 .right{
     background-color: white;
@@ -170,8 +172,16 @@ body{
     border-radius: 3%;
     padding: 5px;
     padding-left: 15px;
+    padding-top: 15px;
     height: fit-content;
     color:rgb(42, 45, 63);
+}
+.right p{
+    margin-top: -3px;
+}
+.right p:hover{
+    background-color: rgba(131, 121, 245, 0.422);
+    padding: 5px;
 }
 .mb{
     background-color: white;
